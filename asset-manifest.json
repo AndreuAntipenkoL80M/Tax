@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/AndreuAntipenkoL80M/Tax/static/css/main.d83dd5fd.css",
-    "main.js": "/AndreuAntipenkoL80M/Tax/static/js/main.093f2ddc.js",
-    "static/js/453.0f760305.chunk.js": "/AndreuAntipenkoL80M/Tax/static/js/453.0f760305.chunk.js",
-    "index.html": "/AndreuAntipenkoL80M/Tax/index.html",
-    "main.d83dd5fd.css.map": "/AndreuAntipenkoL80M/Tax/static/css/main.d83dd5fd.css.map",
-    "main.093f2ddc.js.map": "/AndreuAntipenkoL80M/Tax/static/js/main.093f2ddc.js.map",
-    "453.0f760305.chunk.js.map": "/AndreuAntipenkoL80M/Tax/static/js/453.0f760305.chunk.js.map"
+    "main.css": "/Tax/static/css/main.d83dd5fd.css",
+    "main.js": "/Tax/static/js/main.7a78972b.js",
+    "static/js/453.0f760305.chunk.js": "/Tax/static/js/453.0f760305.chunk.js",
+    "index.html": "/Tax/index.html",
+    "main.d83dd5fd.css.map": "/Tax/static/css/main.d83dd5fd.css.map",
+    "main.7a78972b.js.map": "/Tax/static/js/main.7a78972b.js.map",
+    "453.0f760305.chunk.js.map": "/Tax/static/js/453.0f760305.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.d83dd5fd.css",
-    "static/js/main.093f2ddc.js"
+    "static/js/main.7a78972b.js"
   ]
 }
