@@ -1,0 +1,31 @@
+.inputFields {
+    width: 275px;
+    height: 68px;
+    float: left;
+}
+.unificFields{
+    margin-left: 10%;
+    margin-top: 7%;
+    overflow: auto;
+    width: 65%;
+    background-color: white;
+    place-items:center;
+    padding: 2%;
+
+}
+textarea{
+    width: 45W0px;
+    height: 200px;
+}
+
+.particularReq{
+    margin-left: 10%;
+    margin-top: 7%;
+    overflow: auto;
+    width: 65%;
+    background-color: white;
+    padding: 2%;
+}
+body {
+    background-color: #F3F7F8;
+}

@@ -1,0 +1,50 @@
+{
+  "test": [
+    {
+      "id": "b5f7",
+      "positionName": "Кто-то",
+      "vacancy": "Зам-зам-зама Заместителя",
+      "department": "Уголовный",
+      "openDate": "2025-02-18",
+      "plannedCloseDate": "2025-02-18",
+      "sex": "Мужской",
+      "education": "Высшее",
+      "salary": "На руки",
+      "salaryFrom": 50000,
+      "salaryTo": 60000,
+      "region": "Центральный",
+      "adress": "Дом",
+      "station": "Дам",
+      "experience": "Болезненный",
+      "timetable": "Сменный 5/2",
+      "typeOfEmployment": "Частичная занятость",
+      "functionalResponsibilities": "",
+      "wishes": "",
+      "advantages": "",
+      "additionalOfferings": ""
+    },
+    {
+      "id": "b112",
+      "positionName": "Черно",
+      "vacancy": "Рабочий",
+      "department": "Трудовой",
+      "openDate": "2000-11-22",
+      "plannedCloseDate": "2000-11-23",
+      "sex": "Мужской",
+      "education": "Высшее",
+      "salary": "До вычета налогов",
+      "salaryFrom": 30000,
+      "salaryTo": 32000,
+      "region": "Замкадье",
+      "adress": "Ул. улица, д.300",
+      "station": "Далекая, Неблизкая, Захолустье",
+      "experience": "2",
+      "timetable": "Полная занятость",
+      "typeOfEmployment": "Полная Занятость",
+      "functionalResponsibilities": "",
+      "wishes": "",
+      "advantages": "",
+      "additionalOfferings": ""
+    }
+  ]
+}
