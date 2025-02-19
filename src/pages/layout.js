@@ -11,7 +11,7 @@ import { useState } from 'react';
 
 var getReqList = [];
 function loadData () {
-  fetch('https://andreuantipenkol80m.github.io/Tax/test.json/test',)
+  fetch('test.json/test',)
   //fetch('http://localhost:5000/test/')
   .then(
     function(response) {
