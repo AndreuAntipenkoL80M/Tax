@@ -15,7 +15,7 @@ export default function App() {
       <Routes>
         <Route path="/" element={<Layout />}>
           <Route index element={<ReqList />} />
-          <Route path="/createReq" element={<CreateReq />} />
+          <Route path="Tax/createReq" element={<CreateReq />} />
           <Route path="/editReq" element={<EditReq />} />
           <Route path="/editReq/:id" element={<EditReq />} />
         </Route>
