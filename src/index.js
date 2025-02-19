@@ -13,11 +13,11 @@ export default function App() {
   return (
     <BrowserRouter>
       <Routes>
-        <Route path="/" element={<Layout />}>
+        <Route path="/Tax/" element={<Layout />}>
           <Route index element={<ReqList />} />
-          <Route path="Tax/createReq" element={<CreateReq />} />
-          <Route path="/editReq" element={<EditReq />} />
-          <Route path="/editReq/:id" element={<EditReq />} />
+          <Route path="/Tax/createReq" element={<CreateReq />} />
+          <Route path="/Tax/editReq" element={<EditReq />} />
+          <Route path="/Tax/editReq/:id" element={<EditReq />} />
         </Route>
       </Routes>
     </BrowserRouter>
