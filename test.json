@@ -45,6 +45,29 @@
       "wishes": "",
       "advantages": "",
       "additionalOfferings": ""
+    },
+    {
+      "positionName": "Туда",
+      "vacancy": "Сюда",
+      "department": "Тогда",
+      "openDate": "2222-11-22",
+      "plannedCloseDate": "2233-11-22",
+      "sex": "Мужской",
+      "education": "Высшее",
+      "salary": "На руки",
+      "salaryFrom": 200000,
+      "salaryTo": 300000,
+      "region": "Центральный",
+      "adress": "Дом улица фонарь",
+      "station": "метро",
+      "experience": "3",
+      "timetable": "Полная занятость",
+      "typeOfEmployment": "Полная Занятость",
+      "functionalResponsibilities": "",
+      "wishes": "",
+      "advantages": "",
+      "additionalOfferings": "",
+      "id": "fa3d"
     }
   ]
 }

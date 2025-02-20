@@ -53,8 +53,8 @@ function CreateReq() {
             additionalOfferings: Yup.string(),
         }),
         onSubmit: values =>
-            //fetch('http://localhost:5000/test',]
-        fetch('https://andreuantipenkol80m.github.io/Tax/test.json/test',
+            fetch('http://localhost:5000/test',
+            //fetch('https://andreuantipenkol80m.github.io/Tax/test.json/test',
                 {method:"Post",
                 headers: {'Content-Type': 'application/json',},
                 body: JSON.stringify(values),

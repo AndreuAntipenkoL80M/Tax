@@ -63,8 +63,8 @@ function EditReq () {
         }),
         onSubmit: values => 
             {values.id = subj.id;
-                fetch(`https://andreuantipenkol80m.github.io/Tax/test.json/test/${subj.id}`,
-            //fetch(`http://localhost:5000/test/${subj.id}`,
+                //fetch(`https://andreuantipenkol80m.github.io/Tax/test.json/test/${subj.id}`,
+                fetch(`http://localhost:5000/test/${subj.id}`,
                 {method:"PUT",
                 headers: {'Content-Type': 'application/json',},
                 body: JSON.stringify(values),
