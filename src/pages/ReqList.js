@@ -23,7 +23,7 @@ function ReqList () {
             return(
             <div className='particularReq'>
                 <p>Дата Публикации: {request.openDate}</p>
-                <Link to={`/editReq/${request.id}`}><img src={EditLogo}/></Link>
+                <Link to={`/Tax/editReq/${request.id}`}><img src={EditLogo}/></Link>
                 <h1>{request.vacancy}</h1>
                 <p><img src={MapLogo}/>{request.adress}</p>
                 <p>От {request.salaryFrom} {request.salary}</p>

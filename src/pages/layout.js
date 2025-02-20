@@ -47,8 +47,8 @@ export const Layout = () => {
       <div>
         <reqVault.Provider value={reqList}>
           <nav>
-            <Link onClick={updateData} to="/">Список заявок</Link>
-            <Link onClick={updateData} to="/createReq">Создать заявку</Link>
+            <Link onClick={updateData} to="/Tax/">Список заявок</Link>
+            <Link onClick={updateData} to="/Tax/createReq">Создать заявку</Link>
             
           </nav>
   
