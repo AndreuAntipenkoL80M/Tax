@@ -16,8 +16,11 @@ function ReqList () {
 
     const reqList = useContext(reqVault);
     console.log (reqList,"asd")
-    const [reqss, setReqss] = useState(reqList);
-    return (<div>{
+    //const [reqss, setReqss] = useState(reqList);
+    return (
+    <div>
+        <h1>todo</h1>
+        {
         reqList.map((request) => {
             console.log(request);
             return(
