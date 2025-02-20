@@ -11,7 +11,7 @@ import { useState } from 'react';
 
 var getReqList = [];
 function loadData () {
-  fetch('test.json',)
+  fetch('test.json/test',)
   //fetch('http://localhost:5000/test/')
   .then(
     function(response) {
@@ -31,7 +31,7 @@ export const Layout = () => {
   const [reqList, setReqList] = useState(getReqList);
   console.log(reqList);
   function updateData (){
-    fetch('test.json',)
+    fetch('test.json/test',)
     //fetch('http://localhost:5000/test/')
     .then(
       function(response) {

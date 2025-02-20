@@ -54,7 +54,6 @@ function CreateReq() {
         }),
         onSubmit: values =>
             //fetch('http://localhost:5000/test',]
-            //to
         fetch('https://andreuantipenkol80m.github.io/Tax/test.json/test',
                 {method:"Post",
                 headers: {'Content-Type': 'application/json',},
