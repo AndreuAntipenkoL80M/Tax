@@ -11,13 +11,13 @@ import { useState } from 'react';
 
 var getReqList = [];
 function loadData () {
-  fetch('test.json/test',)
+  fetch('test.json',)
   //fetch('http://localhost:5000/test/')
   .then(
     function(response) {
       return response.json()
       })
-  .then(data => {getReqList = data}
+  .then(data => {getReqList = data.test}
   )
   console.log(getReqList)
 }
@@ -31,13 +31,13 @@ export const Layout = () => {
   const [reqList, setReqList] = useState(getReqList);
   console.log(reqList);
   function updateData (){
-    fetch('test.json/test',)
+    fetch('test.json',)
     //fetch('http://localhost:5000/test/')
     .then(
       function(response) {
         return response.json()
         })
-    .then((data => setReqList(data)))
+    .then((data => setReqList(data.test)))
     .then(console.log(reqList))
   }
 
